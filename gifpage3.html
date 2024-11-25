@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Full Page GIF</title>
+    <style>
+        html, body {
+            height: 100%;
+            margin: 0;
+        }
+        
+        
+        body {
+
+            background-image: url('neworder.gif');
+            background-size: cover; /* Ensure it fills the screen */
+            background-position: center; /* Center the GIF */
+            background-repeat: no-repeat; /* Prevent repeating the GIF */
+            cursor: pointer;
+        }
+
+
+        .fullscreen-gif {
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+            cursor: pointer;
+        }
+    </style>
+</head>
+<body>
+    <a href="page6.html">
+        <img src="neworder.gif" class="fullscreen-gif" alt="Full screen GIF">
+    </a>
+</body>
+</html>
